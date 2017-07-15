@@ -1311,7 +1311,7 @@ small,
 mark,
 .mark {
   padding: .2em;
-  background-color: #fcf8e3;
+  background-color: #EDE7D5;
 }
 .text-left {
   text-align: left;
@@ -1341,75 +1341,75 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: #EDE7D5;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090;
+  color: #EDE7D5;
 }
 .text-success {
-  color: #3c763d;
+  color: #EDE7D5;
 }
 a.text-success:hover,
 a.text-success:focus {
-  color: #2b542c;
+  color: #EDE7D5;
 }
 .text-info {
-  color: #31708f;
+  color: #EDE7D5;
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #245269;
+  color: #EDE7D5;
 }
 .text-warning {
-  color: #8a6d3b;
+  color: #EDE7D5;
 }
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #66512c;
+  color: #EDE7D5;
 }
 .text-danger {
-  color: #a94442;
+  color: #EDE7D5;
 }
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #843534;
+  color: #EDE7D5;
 }
 .bg-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #EDE7D5;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #286090;
+  background-color: #EDE7D5;
 }
 .bg-success {
-  background-color: #dff0d8;
+  background-color: #EDE7D5;
 }
 a.bg-success:hover,
 a.bg-success:focus {
-  background-color: #c1e2b3;
+  background-color: #EDE7D5;
 }
 .bg-info {
-  background-color: #d9edf7;
+  background-color: #EDE7D5;
 }
 a.bg-info:hover,
 a.bg-info:focus {
-  background-color: #afd9ee;
+  background-color: #EDE7D5;
 }
 .bg-warning {
-  background-color: #fcf8e3;
+  background-color: #EDE7D5;
 }
 a.bg-warning:hover,
 a.bg-warning:focus {
-  background-color: #f7ecb5;
+  background-color: #EDE7D5;
 }
 .bg-danger {
-  background-color: #f2dede;
+  background-color: #EDE7D5;
 }
 a.bg-danger:hover,
 a.bg-danger:focus {
-  background-color: #e4b9b9;
+  background-color: #EDE7D5;
 }
 .page-header {
   padding-bottom: 9px;
@@ -1540,7 +1540,7 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
+  color: #EDE7D5;
   background-color: #f9f2f4;
   border-radius: 4px;
 }
