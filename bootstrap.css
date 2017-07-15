@@ -17,6 +17,7 @@ html {
 
 body {
   margin: 0;
+  background-position: center; 
 }
 article,
 aside,
@@ -1099,12 +1100,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #EDE7D5;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #EDE7D5;
   text-decoration: underline;
 }
 a:focus {
