@@ -618,7 +618,7 @@ function folderClick(folder_name) {
 		"cmdb_ci_lb_ace",	
 		"cmdb_ci_endpoint_acl",	
 		"ecc_action",	
-		"sys_ux_page_action_binding",	
+		"sys_ux_page_action",	
 		"sys_hub_category",	
 		"sys_hub_action_input",	
 		"sys_hub_action_instance",	
