@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("images/teddy.png");
+      min-height: 100%;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Dustin Hux</b></h1>
+    <p>Software Developer & Nationals Fanatic</p>
+    <img src="images/teddy.png" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="images/teddy.png" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <p>Hello! My name is Dustin Hux, I am 27 years old and have been a Nationals fan all my life, from sitting in the nosebleeds at RFK to standing on tables
+        at the bullpen celebrating our game 7 win in the rain.  The Nationals & the ballpark have played a huge part in my life in my time living in DC and would 
+        love to be a part of the cornerstone of our ballpark's entertainment: the Presidents Race.
+    </p>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="images/IMG_7148.jpeg" style="width:100%">
+        <img src="images/IMG_2141.jpeg" style="width:100%">
+        <img src="images/IMG_0867.jpeg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="images/prez.jpg" style="width:100%">
+        <img src="images/IMG_2654.jpeg" style="width:100%">
+        <img src="images/IMG_0862.jpeg" style="width:100%">
+        <img src="images/IMG_2048.jpeg" style="width:100%"> 
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <hr class="w3-opacity">
+    <p>I run a lot and am the local legend of Nats park on Strava so i'm used to running around the ballpark!!
+    </p>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="images/IMG_3823.jpeg" style="width:100%">
+          <img src="images/IMG_3825.jpeg" style="width:100%">
+        </div>
+  
+        <div class="w3-half">
+          <img src="images/IMG_3824.jpeg" style="width:100%">
+          <img src="images/IMG_3504.jpeg" style="width:100%">
+        </div>
+      <!-- End photo grid -->
+    </div>
+
+    <hr class="w3-opacity">
+    <p>I live at the apartment complex across the street so i'll never be late for work!
+    </p>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img src="images/IMG_3827.jpeg" style="width:100%">
+        </div>
+  
+        <div class="w3-half">
+          <img src="images/IMG_3811.jpeg" style="width:100%">
+        </div>
+      <!-- End photo grid -->
+    </div>
+
+    <p>I'd absolutely loved to be considered for this position, please reach out if you have any questions!
+    </p>
+    <hr class="w3-opacity">
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Navy Yard, Washington DC</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (804) 698 0323</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: dustinrhux@gmail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="images/IMG_1921.jpeg" class="w3-image" style="width:100%;margin:32px 0">
+  <!-- End Contact Section -->
+  </div>  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
