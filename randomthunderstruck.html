@@ -60,7 +60,10 @@
       audio1.play();
       audio2.play();*/
 
-      let uris = ['https://dustinhux.github.io/audio/thunder1.mp3', 'https://dustinhux.github.io/audio/body2.mp3'],
+      /*let uris = ['https://dustinhux.github.io/audio/body1.mp3', 'https://dustinhux.github.io/audio/thunder1.mp3','https://dustinhux.github.io/audio/body2.mp3', 'https://dustinhux.github.io/audio/thunder2.mp3', 
+      'https://dustinhux.github.io/audio/body3.mp3', 'https://dustinhux.github.io/audio/body4.mp3', 'https://dustinhux.github.io/audio/oa.mp3', 'https://dustinhux.github.io/audio/body5.mp3', 
+      'https://dustinhux.github.io/audio/struck2.mp3', 'https://dustinhux.github.io/audio/body6.mp3' ],*/
+      let uris = ['https://dustinhux.github.io/audio/test1.mp3', 'https://dustinhux.github.io/audio/test2.mp3'],
           proms = uris.map(uri => fetch(uri).then(r => r.blob()));
       Promise.all(proms).then(blobs => {
           let blob = new Blob([blobs[0], blobs[1]]),
