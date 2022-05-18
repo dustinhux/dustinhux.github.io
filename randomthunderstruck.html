@@ -34,7 +34,7 @@
         <h1 class="cover-heading">Cover your page.</h1>
         <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+          <a onclick="myFunction()" class="btn btn-lg btn-secondary">Learn more</a>
         </p>
       </main>
 
@@ -53,7 +53,14 @@
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script>
 
-      let uris = ['audio/body.mp3', 'audio/thunder1.mp3'],
+    function myFunction() {
+
+      /*var audio1 = new Audio('audio/body1.mp3');
+      var audio2 = new Audio('audio/body2.mp3');
+      audio1.play();
+      audio2.play();*/
+
+      let uris = ['https://dustinhux.github.io/audio/thunder1.mp3', 'https://dustinhux.github.io/audio/body2.mp3'],
           proms = uris.map(uri => fetch(uri).then(r => r.blob()));
       Promise.all(proms).then(blobs => {
           let blob = new Blob([blobs[0], blobs[1]]),
@@ -61,6 +68,10 @@
               audio = new Audio(blobUrl);
           audio.play();
       });
+
+
+
+    } 
     </script>
   </body>
 </html>
